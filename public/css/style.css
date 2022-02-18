@@ -1,0 +1,105 @@
+/*                                     Author: Ing Carlos Allen                                   */
+/*                                   https://github.com/CarlosAllen93                            */
+/*                                 contact : allencarlosDev@gmail.com                           */
+
+/* color variables */
+:root {
+    --background-header: #080808;
+    --bar: rgba(125, 125, 125, 0.4);
+    --bar-menu: red;
+    --btn-contact: #ff4655;
+}
+
+/* container */
+.container {
+    background-color: antiquewhite;
+}
+
+/* header section */
+.header {
+    display: grid;
+    grid-template-columns: repeat(12 ,1fr);
+    align-items: center;
+    background-color:var(--background-header);
+}
+
+.header-logo {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    grid-column: 2/3;
+}
+
+.header-logo__img {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin:auto;
+    width: 50px;
+    height: 50px;
+}
+
+.header-logo__img--2 {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.header-logo__img--2:hover {
+    opacity: 1;
+}
+
+.bar {
+    grid-column: 3/4;
+    height: 30px;
+    border-left: 2px solid var(--bar);
+}
+
+.menu {
+    grid-column: 4/10;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-header__item {
+    position: relative;
+    width: 100px;
+    text-align: center;
+}
+
+.menu-header__item::after {
+    position: absolute;
+    content: "";
+    bottom: -25px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background: var(--bar-menu);
+    border-radius: 5px;
+    transform: scale(0, 1);
+}
+
+.menu-header__item:hover::after {
+    transform: scale(1, 1);
+}
+
+.header-contact {
+    grid-column: 11/12;
+}
+
+.header-contact__btn {
+    display: block;
+    min-width: 100px;
+    max-width: 150px;
+    padding: 10px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: var(--btn-contact);
+}
+
+
+
