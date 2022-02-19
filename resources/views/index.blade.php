@@ -13,7 +13,7 @@
     <div class="container">
         <header class="header">
                 <div class="header-logo">
-                    <a href="https://playvalorant.com/en-us/">
+                    <a href="https://playvalorant.com/en-us/" target="_blank">
                         <img src="{{ asset('img/logo.svg') }}" alt="" class="header-logo__img">
                         <img src="{{ asset('img/logo-2.svg') }}" alt="" class="header-logo__img header-logo__img--2">
                     </a>
@@ -35,8 +35,10 @@
                 </div>
         </header>
         <main class="main">
-            <section class="home">
-                HOME
+            <section class="home" id="home">
+                <video class="home__video" src="{{ asset('img/video-valorant.mp4') }}" width="1280" height="720" autoplay muted loop></video>
+                <img class="home__logo" src="{{ asset('img/valorant-logo.svg') }}" alt="">
+                <a href="#" class="home__btn"> PLAY FREE</a>
             </section>
             <section class="patchnotes">
                 PATCH NOTES

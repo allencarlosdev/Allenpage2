@@ -9,7 +9,7 @@
 :root {
     --color-text: #fff;
     --first-type: Helvetica, Arial, sans-serif;
-    --second-type: Verdana;
+    /* --second-type: Verdana; */
 }
 
 html,

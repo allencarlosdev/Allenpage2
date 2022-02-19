@@ -8,11 +8,13 @@
     --bar: rgba(125, 125, 125, 0.4);
     --bar-menu: red;
     --btn-contact: #ff4655;
+    --background-body: #ece8e1;
+    --background-video: #0f1923;
 }
 
 /* container */
 .container {
-    background-color: antiquewhite;
+    background-color: var(--background-body);
 }
 
 /* header section */
@@ -93,13 +95,44 @@
 
 .header-contact__btn {
     display: block;
-    min-width: 100px;
-    max-width: 150px;
     padding: 10px;
     border-radius: 2px;
     text-align: center;
     background-color: var(--btn-contact);
 }
 
+/* Home */
+.home {
+    display: grid;
+    height: 550px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    background-color: var(--background-video);
+}
 
+.home__video {
+    height: 550px;
+    grid-column: 1/13;
+    grid-row: 1/13;
+}
 
+.home__logo {
+    display: block;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 5/9;
+    grid-row: 5/7;
+}
+
+.home__btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 80px;
+    grid-column: 5/9;
+    grid-row: 7/8;
+    text-align: center;
+    border-radius: 2px;
+    background-color: var(--btn-contact);
+}
