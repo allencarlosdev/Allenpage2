@@ -60,8 +60,12 @@
                 </div>
             </section>
 
-            <section class="highlights">
-                HIGHLIGHTS
+            <section class="highlights" id="highlights">
+                    <img class="highlights__pigeons" src="{{ asset('img/pigeons.svg') }}" alt="">
+                    <h2 class="highlights__title">Highlights</h2>
+                    <video class="highlights__video" src="{{ asset('img/valorant-friends.mp4') }}" width="426" height="240" autoplay muted loop></video>
+                    <img class="highlights__left" src="{{ asset('img/section-highlights-left.svg') }}" alt="">
+                    <img class="highlights__right" src="{{ asset('img/section-highlights-right.svg') }}" alt="">
             </section>
         </main>
         <footer class="footer">

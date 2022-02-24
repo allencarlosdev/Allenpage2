@@ -6,7 +6,6 @@
 :root {
     --background-header: #080808;
     --bar: rgba(150, 150, 150, 0.4);
-    --bar-menu: red;
     --btn-contact: #ff4655;
     --background-body: #ece8e1;
     --background-video: #0f1923;
@@ -28,8 +27,7 @@
 /* container */
 .container {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template: repeat(12, 1fr) / repeat(2, 1fr);
     background-color: var(--background-body);
 }
 
@@ -110,7 +108,7 @@
     left: 0;
     height: 3px;
     width: 100%;
-    background: var(--bar-menu);
+    background: var(--btn-contact);
     border-radius: 5px;
     transform: scale(0, 1);
 }
@@ -140,8 +138,7 @@
 .home {
     display: grid;
     height: 630px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 80px repeat(11, 1fr);
+    grid-template: repeat(12, 1fr) / 80px repeat(11, 1fr);
     background-color: var(--background-video);
 }
 
@@ -197,8 +194,7 @@
     display: grid;
     height: 720px;
     margin-top: 100px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    grid-template: repeat(12, 1fr) / repeat(12, 1fr);
 }
 
 .patchnotes__background {
@@ -229,7 +225,6 @@
     margin-bottom: 10px;
     font-family: var(--font2);
     font-size: 5em;
-
 }
 
 .patchnotes-update__h3 {
@@ -241,4 +236,63 @@
 .patchnotes-update__p {
     line-height: 20px;
 }
+
+
+
+/* Highlights*/
+
+.highlights {
+    display: grid;
+    margin-top: -150px;
+    height: 700px;
+    grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+}
+
+.highlights__pigeons {
+    z-index: var(--z-index20);
+    height: 700px;
+    max-width: 1250px;
+    grid-column: 1/13;
+    grid-row: 1/13;
+    place-self: end;
+}
+
+.highlights__left {
+    z-index: var(--z-index40);
+    height: 700px;
+    min-width: 1250px;
+    max-width: 1250px;
+    grid-column: 1/13;
+    grid-row: 1/13;
+}
+
+.highlights__right {
+    z-index: var(--z-index40);
+    max-width: 1250px;
+    height: 700px;
+    grid-column: 1/13;
+    grid-row: 1/13;
+    place-self: end;
+}
+.highlights__title {
+    z-index: var(--z-index50);
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 2/6;
+    grid-row: 4/6;
+    font-family: var(--font2);
+    font-size: 5em;
+    color: var(--background-video);
+}
+
+.highlights__video {
+    z-index: var(--z-index50);
+    grid-column: 2/6;
+    grid-row: 6/9;
+    border: 6px outset var(--btn-contact);
+    object-fit: fill;
+    outline: 1px solid var(--bar);
+    outline-offset: 5px;
+}
+
 
