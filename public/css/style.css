@@ -138,7 +138,7 @@
 .home {
     display: grid;
     height: 630px;
-    grid-template: repeat(12, 1fr) / 80px repeat(11, 1fr);
+    grid-template: 80px repeat(11, 1fr) / repeat(12, 1fr);
     background-color: var(--background-video);
 }
 
