@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Valorant blog</title>
+    <!--favicon-->
+    <link rel="icon" href="{{ asset('img/logo-icon.png') }}">
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&family=Karantina:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/resetAllen.css">
