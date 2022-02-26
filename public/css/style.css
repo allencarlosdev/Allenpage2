@@ -11,6 +11,7 @@
     --background-video: #0f1923;
     --font: 'Atkinson Hyperlegible', sans-serif;
     --font2:'Karantina', cursive;
+    --white: #fff;
 
     /* z-index - variables */
     --z-index10: 10;
@@ -27,12 +28,12 @@
 /* container */
 .container {
     display: grid;
-    grid-template: repeat(12, 1fr) / repeat(2, 1fr);
+    grid-template: 1fr, 500px / repeat(12, 1fr);
     background-color: var(--background-body);
 }
 
 .bar__container {
-    z-index: var(--z-index80);
+    z-index: var(--z-index70);
     height: 100%;
     margin-left: 100px;
     grid-column: 1/2;
@@ -237,9 +238,7 @@
     line-height: 20px;
 }
 
-
-
-/* Highlights*/
+/* Highlights */
 
 .highlights {
     display: grid;
@@ -295,4 +294,104 @@
     outline-offset: 5px;
 }
 
+/* Footer */
+.footer {
+    display: grid;
+    z-index: var(--z-index80);
+    height: 600px;
+    grid-column: 1/13;
+    grid-row: 2/3;
+    grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+    background: var(--background-header);
+    color: var(--bar);
 
+}
+
+.footer__h3 {
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 5/9;
+    grid-row: 2/3;
+    align-self: end;
+    color: var(--bar);
+}
+
+.footer__img {
+    max-width: 150px;
+    max-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 6/8;
+    grid-row: 3/5;
+}
+
+.footer__h4 {
+    grid-column: 5/9;
+    grid-row: 5/6;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--bar);
+}
+
+.footer-socials {
+    display: flex;
+    grid-column: 5/9;
+    grid-row: 6/7;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-socials__li {
+    margin: 0 15px;
+    font-size: 2rem;
+    transition: color 0.4s ease;
+}
+.footer-socials__li:hover {
+    color: var(--white);
+}
+
+
+.footer-copyright {
+    display: flex;
+    margin: 15px;
+    grid-column: 3/11;
+    grid-row: 7/8;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-copyright__p {
+    color: var(--bar);
+    margin-bottom: 5px;
+}
+
+.footer-copyright__h4 {
+    margin-bottom: 5px;
+    justify-self: end;
+    color: var(--bar);
+}
+
+.esrb {
+    display: flex;
+    margin: 15px auto;
+    padding: 15px;
+    grid-column: 5/9;
+    grid-row: 8/12;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 2vw;
+}
+
+.esrb-description {
+    text-align: start;
+}
+.esrb__img {
+    width: 100px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.esrb-description__h4 {
+    margin: 10px;
+    color: var(--bar);
+}

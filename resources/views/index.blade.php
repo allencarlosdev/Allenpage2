@@ -69,8 +69,36 @@
             </section>
         </main>
         <footer class="footer">
-            FOOTER
+                <h3 class="footer__h3">Created by : @CarlosAllen93</h3>
+                <img class="footer__img" src="{{ asset('img/logo-3.svg') }}" alt="" class="">
+                <h4 class="footer__h4">My socials network</h4>
+                <ul class="footer-socials">
+                    <li class="footer-socials__li"><a href="https://github.com/CarlosAllen93" target="_blank"><i class="fa fa-github"></i></a></li>
+                    <li class="footer-socials__li"><a href="https://stackoverflow.com/users/16209550/carlos-allen" target="_blank"><i
+                                class="fa fa-stack-overflow"></i></a></li>
+                    <li class="footer-socials__li"><a href="https://www.linkedin.com/in/carlos-wilder-allen-pe%C3%B1a-7a7699123/" target="_blank"><i
+                                class="fa fa-linkedin"></i></a></li>
+                    <li class="footer-socials__li"><a href="https://www.sololearn.com/profile/20725585" target="_blank"><i class="fab fa-stripe-s"></i></a></li>
+                </ul>
+                <div class="footer-copyright">
+                    <h4 class="footer-copyright__h4">This page is a fan art of:</h4>
+                    <p class="footer-copyright__p"> &copy; All copyrights - 2021 RIOT GAMES VALORANT
+                        belong to Riot games inspired page: </p>
+                    <a href="https://playvalorant.com/en-us/ "
+                        target="_blank">https://playvalorant.com/en-us/</a>
+                </div>
+                <div class="esrb">
+                    <img class="esrb__img" src="{{ asset('img/esrb.svg') }}" alt="">
+                    <div class="esrb-description">
+                        <h4 class="esrb-description__h4">Blood</h4>
+                        <h4 class="esrb-description__h4">Language</h4>
+                        <h4 class="esrb-description__h4">Violence</h4>
+                        <h4 class="esrb-description__h4">Users interact</h4>
+                        <h4 class="esrb-description__h4">In-Game Purchases</h4>
+                    </div>
+                </div>
         </footer>
     </div>
+    <script src="https://kit.fontawesome.com/8d2cede7ac.js" crossorigin="anonymous"></script>
 </body>
 </html>
