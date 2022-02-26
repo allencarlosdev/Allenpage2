@@ -34,7 +34,7 @@
                     </nav>
                 </div>
                 <div class="header-contact">
-                    <span class="header-contact__icon"><i class="fas fa-bars"></i></span>
+                    <span class="header-contact__icon"><i class=""></i></span>
                     <a class="header-contact__btn" href="https://github.com/CarlosAllen93" target="_blank">Contact</a>
                 </div>
         </header>
@@ -48,7 +48,7 @@
             </section>
             <section class="patchnotes" id="patchnotes">
                 <img class="patchnotes__background" src="{{ asset('img/red-heaven.svg') }}" alt="">
-                <img class="patchnotes__img" src="{{ asset('img/cypher.svg') }}" alt="">
+                <img class="patchnotes__img fade_up" src="{{ asset('img/cypher.svg') }}" alt="">
                 <div class="patchnotes-update">
                     <h2 class="patchnotes-update__h2">VALORANT Patch Notes 4.03</h2>
                     <h3 class="patchnotes-update__h3">Deathmatch</h3>
@@ -63,7 +63,7 @@
             </section>
 
             <section class="highlights" id="highlights">
-                    <img class="highlights__pigeons" src="{{ asset('img/pigeons.svg') }}" alt="">
+                    <img class="highlights__pigeons fade_left" src="{{ asset('img/pigeons.svg') }}" alt="">
                     <h2 class="highlights__title">Highlights</h2>
                     <video class="highlights__video" src="{{ asset('img/valorant-friends.mp4') }}" width="426" height="240" autoplay muted loop></video>
                     <img class="highlights__left" src="{{ asset('img/section-highlights-left.svg') }}" alt="">
@@ -102,5 +102,6 @@
         </footer>
     </div>
     <script src="https://kit.fontawesome.com/8d2cede7ac.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="{{ asset('js/animation_fade.js') }}"></script>
 </body>
 </html>

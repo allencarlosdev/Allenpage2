@@ -395,3 +395,24 @@
     margin: 10px;
     color: var(--bar);
 }
+
+/* Animation */
+.fade_up {
+    transition: all .8s;
+}
+
+.fade_left {
+    transition: all 3s;
+}
+
+.transform_up {
+    transform: translateY(20%);
+}
+
+.transform_left {
+    transform: translateY(30%) translateX(10%);
+}
+
+.appear {
+    transform:none;
+}
