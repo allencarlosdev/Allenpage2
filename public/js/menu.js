@@ -1,6 +1,8 @@
-const headerContact__icon = document.querySelector(".header-contact__icon");
-const menuHeader = document.querySelector(".menu-header");
+function menuResponsive (){
+    document.getElementById('menu').classList.toggle('menu-header--visible');
+}
+document.getElementById('menu_bar').onclick = function () {
+    menuResponsive();
+}
 
-headerContact__icon.addEventListener("Click", () => {
-    menuHeader.classList.toggle(".menu-header--visible")
-});
+

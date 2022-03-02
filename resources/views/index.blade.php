@@ -25,16 +25,16 @@
                 <div class="bar"></div>
                 <div class="menu">
                     <nav>
-                        <ul class="menu-header">
+                        <ul class="menu-header" id="menu">
                             <li class="menu-header__item"><a href="#home" class="">HOME</a></li>
                             <li class="menu-header__item"><a href="#patchnotes" class="">PATCH NOTES</a></li>
                             <li class="menu-header__item"><a href="#highlights" class="">HIGHLIGHTS</a></li>
-                            <li class="menu-header__item"><a href="#" class="">ABOUT</a></li>
+                            <li class="menu-header__item"><a href="#about" class="">ABOUT</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="header-contact">
-                    <span class="header-contact__icon"><i class="fa fa-bars"></i></span>
+                    <span class="header-contact__icon"><i class="fa fa-bars" id="menu_bar"></i></span>
                     <a class="header-contact__btn" href="https://github.com/CarlosAllen93" target="_blank">Contact</a>
                 </div>
         </header>
@@ -70,7 +70,7 @@
                     <img class="highlights__right" src="{{ asset('img/section-highlights-right.svg') }}" alt="">
             </section>
         </main>
-        <footer class="footer">
+        <footer class="footer" id="about">
                 <h3 class="footer__h3">Created by : @CarlosAllen93</h3>
                 <img class="footer__img" src="{{ asset('img/logo-3.svg') }}" alt="" class="">
                 <h4 class="footer__h4">My socials network</h4>
