@@ -251,6 +251,7 @@
     margin-top: -150px;
     height: 700px;
     grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+    overflow: hidden;
 }
 
 .highlights__pigeons {
