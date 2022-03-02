@@ -34,7 +34,7 @@
                     </nav>
                 </div>
                 <div class="header-contact">
-                    <span class="header-contact__icon"><i class=""></i></span>
+                    <span class="header-contact__icon"><i class="fa fa-bars"></i></span>
                     <a class="header-contact__btn" href="https://github.com/CarlosAllen93" target="_blank">Contact</a>
                 </div>
         </header>
@@ -103,5 +103,6 @@
     </div>
     <script src="https://kit.fontawesome.com/8d2cede7ac.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="{{ asset('js/animation_fade.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/menu.js') }}"></script>
 </body>
 </html>

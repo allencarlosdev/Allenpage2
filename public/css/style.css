@@ -130,6 +130,12 @@
     background-color: var(--btn-contact);
 }
 
+.header-contact__icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
 /* Main */
 .main {
     grid-column: 1/13;
@@ -415,4 +421,36 @@
 
 .appear {
     transform:none;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 1020px) {
+
+    /* header responsive */
+    .menu-header {
+        flex-direction: column;
+        background-color: var(--background-video);
+        position: fixed;
+        top:80px;
+        width: 100%;
+        align-items: center;
+        padding: 20px;
+        height: 350px;
+        left: 100%;
+        transition: left 0.3s;
+    }
+
+    .menu-header--visible {
+        left: 0;
+    }
+
+    .header-contact__btn {
+        display: none;
+    }
+
+    .header-contact__icon {
+        display: block;
+    }
+
 }
