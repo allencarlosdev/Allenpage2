@@ -19,6 +19,7 @@ the goal of this static page is to try to replicate the original page but with s
 - BEM METHODOLOGY
 - USING VARIABLES IN CSS
 - PIGEONS ANIMATION EFFECT
+- ATTEMPT TO COPY AND EXISTING PAGE  ( https://playvalorant.com/en-us/ )
 
 
 **The technologies used were :**
