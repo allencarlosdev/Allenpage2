@@ -37,3 +37,7 @@ DOCKER with LARAVEL SAIL
 ## Image
 
 ![App Screenshot](https://github.com/CarlosAllen93/Allenpage2/blob/main/public/img/Presentation-Allenpage2.jpg)
+
+## Specificity
+
+![App Screenshot](https://github.com/CarlosAllen93/Allenpage2/blob/main/public/img/CSS-Specificity-Valorant.png)
