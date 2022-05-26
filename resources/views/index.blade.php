@@ -75,10 +75,10 @@
                 <img class="footer__img" src="{{ asset('img/logo-3.svg') }}" alt="" class="">
                 <h4 class="footer__h4">My socials network</h4>
                 <ul class="footer-socials">
-                    <li class="footer-socials__li"><a href="https://github.com/CarlosAllen93" target="_blank"><i class="fa fa-github"></i></a></li>
+                    <li class="footer-socials__li"><a href="https://github.com/allencarlosdev" target="_blank"><i class="fa fa-github"></i></a></li>
                     <li class="footer-socials__li"><a href="https://stackoverflow.com/users/16209550/carlos-allen" target="_blank"><i
                                 class="fa fa-stack-overflow"></i></a></li>
-                    <li class="footer-socials__li"><a href="https://www.linkedin.com/in/carlos-wilder-allen-pe%C3%B1a-7a7699123/" target="_blank"><i
+                    <li class="footer-socials__li"><a href="https://www.linkedin.com/in/allencarlosdev/" target="_blank"><i
                                 class="fa fa-linkedin"></i></a></li>
                     <li class="footer-socials__li"><a href="https://www.sololearn.com/profile/20725585" target="_blank"><i class="fab fa-stripe-s"></i></a></li>
                 </ul>
