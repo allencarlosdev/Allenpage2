@@ -1,6 +1,4 @@
-# Allenpage2
-
-_**Number of pages for the portfolio :** 2/6_
+# Valorant Page ( copycat )
 
 **Web Theme :**
 
